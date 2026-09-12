@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GapWise AI — Find the missing concept</title>
+  <meta name="description" content="GapWise AI — AI-powered learning diagnostics that discover why students struggle.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#landing" data-route="landing" aria-label="GapWise AI home">
+        <span class="brand-mark"><span></span><span></span><span></span></span>
+        <span>GapWise <b>AI</b></span>
+      </a>
+      <nav class="topnav" aria-label="Primary">
+        <button class="nav-link active" data-route="landing">Home</button>
+        <button class="nav-link" data-route="dashboard">Dashboard</button>
+        <button class="nav-link" data-route="assessment">Assessment</button>
+        <button class="nav-link" data-route="practice">Practice</button>
+      </nav>
+      <button class="avatar-btn" data-route="dashboard" title="Open dashboard">S</button>
+    </header>
+
+    <main id="view"></main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
